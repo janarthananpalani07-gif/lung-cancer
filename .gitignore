@@ -12,7 +12,6 @@ env/
 
 # Large dataset & model files
 *.zip
-*.pt
 candidates.csv
 annotations.csv
 sampleSubmission.csv
