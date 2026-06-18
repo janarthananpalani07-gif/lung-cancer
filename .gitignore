@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Large dataset & model files
+*.zip
+*.pt
+candidates.csv
+annotations.csv
+sampleSubmission.csv
+slice_*.jpg
+temp*.jpg
+test*.jpg
+tumour_crop_*.jpg
+heatmap.jpg
+overlay.jpg
+
+# Streamlit logs
+streamlit.log
+streamlit.err.log
+streamlit_run.log
+
+# YOLO / training runs
+runs/
+train/
+cropped/
+dataset/
+LUNG CANCER/
+
+# Node
+node_modules/
+package-lock.json
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
