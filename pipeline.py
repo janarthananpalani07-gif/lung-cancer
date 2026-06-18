@@ -1,4 +1,4 @@
-from matplotlib.pyplot import gray
+from matplotlib.pyplot import plt
 from ultralytics import YOLO 
 import cv2
 from PIL import Image
