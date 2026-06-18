@@ -1,4 +1,4 @@
-from matplotlib.pyplot import plt
+import matplotlib.pyplot as plt
 from ultralytics import YOLO 
 import cv2
 from PIL import Image
