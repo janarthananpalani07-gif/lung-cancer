@@ -1,9 +1,9 @@
+import os
+import cv2  # must be imported before ultralytics to cache headless version
 import matplotlib.pyplot as plt
-from ultralytics import YOLO 
-import cv2
+from ultralytics import YOLO
 from PIL import Image
 from utils import risk_level
-import os
 import numpy as np
 
 # ================= RESNET LOADING =================
